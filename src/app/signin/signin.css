@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap");
+
+.container {
+  width: 90%;
+  margin: 5%;
+  max-width: 2000px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 4rem;
+  gap: 2rem;
+  width: 100%;
+  max-width: 2000px;
+  height: 100%;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.left_side-login {
+  display: flex;
+  flex-direction: column;
+  /* text-align: left; */
+  width: 100%;
+  /* height: 100%; */
+
+  /* width: 30%; */
+}
+
+#title-text {
+  text-align: center;
+  /* padding-left: 10%; */
+}
+
+.submit_button {
+  margin-top: 2vh !important;
+  all: unset;
+  /* background-color: #4a785f !important; */
+  background-color: rgb(220 38 38) !important;
+  border: none !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+  color: #ffffff !important;
+  font-size: 1.5rem !important;
+  font-weight: 900 !important;
+  height: 6vh;
+  width: 100%;
+}
+
+.submit_button:hover {
+  /* background-color: #ffa600 !important; */
+  cursor: pointer;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right_side-login {
+  padding: 0 !important;
+  height: 100%;
+  width: 50%;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.right_side-login img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  transition: transform 1 ease-in-out;
+}
+
+.main_login {
+  width: 100%;
+}
+
+.mb-5 {
+  margin-bottom: 1.5rem !important;
+}
+
+.text-wrapper-5 {
+  background-color: rgba(255, 255, 255, 1);
+  color: #808080;
+  width: 100%;
+  font-size: 2vh;
+  font-weight: 300;
+  letter-spacing: 0.26px;
+  line-height: normal;
+  white-space: nowrap;
+  border-radius: 5px;
+  height: 50px;
+}
+
+.register-link {
+  text-decoration: none;
+}
+
+.css-jgkpi1 {
+  padding: 0rem !important;
+}
+
+@media screen and (max-width: 768px) {
+  .right_side-login {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 1700px) {
+  .css-66dp1k {
+    padding: 4rem !important;
+  }
+}

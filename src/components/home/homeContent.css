@@ -1,0 +1,8 @@
+.zoom_on_hover {
+    transition: transform 0.25s ease-in-out;
+}
+
+.zoom_on_hover:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
